@@ -6,7 +6,9 @@
     "lint:tigi": "nx run tigi:lint",
     "lint:all": "nx run-many --target=lint --all",
     "serve:tigi": "nx run tigi:serve",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build:tigi": "nx run tigi:build",
+    "pre-commit": "nx run tigi:lint && npm run build:tigi"
   },
   "private": true,
   "dependencies": {
