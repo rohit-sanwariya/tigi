@@ -2,7 +2,12 @@
   "name": "@tigi/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "lint:tigi": "nx run tigi:lint",
+    "lint:all": "nx run-many --target=lint --all",
+    "serve:tigi": "nx run tigi:serve",
+    "prepare": "husky"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "~19.2.0",
@@ -37,6 +42,7 @@
     "angular-eslint": "^19.2.0",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
+    "husky": "^9.1.7",
     "nx": "20.8.0",
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",

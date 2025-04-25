@@ -69,7 +69,7 @@ export default [
       'no-return-await': 'error',
 
       // Code style
-      'quotes': ['error', 'single', { avoidEscape: true }],
+      'quotes': ['error', 'double', { avoidEscape: true }],
       'semi': ['error', 'always'],
       'indent': ['error', 2, { SwitchCase: 1 }],
       'object-curly-spacing': ['error', 'always'],
