@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "lint:tigi": "nx run tigi:lint",
+    "fix:tigi": "nx run tigi:lint --fix",
     "lint:all": "nx run-many --target=lint --all",
     "serve:tigi": "nx run tigi:serve",
     "prepare": "husky",
