@@ -1,1 +1,2 @@
 npm run lint:tigi
+npx nx build tigi --skip-nx-cache
